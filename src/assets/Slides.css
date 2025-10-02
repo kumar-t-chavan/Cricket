@@ -1,0 +1,14 @@
+/* Carousel ko center align karna */
+.carousel-container {
+  max-width: 900px;   /* jitna bada box chahiye utna set karo */
+  margin: 0 auto;  
+  margin-left: 340px; 
+  margin-top: 70px;  /* center align */
+}
+
+/* Image height fix karke bada karo */
+/* .carousel-img {
+  height: 500px;       
+  object-fit: cover; 
+  border-radius: 10px; 
+} */
