@@ -6,7 +6,7 @@ import './index.css'
 import Slides from './assets/Slides'
 import Homepage from './assets/Homepage'
 import Player from './assets/Player'
-import Team from './assets/Team'
+
 
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
         <Route path='/play' element={<Player />} />
         <Route path='/link' element={<Live />} />
         <Route path='/slide' element={<Slides/>} />
-        <Route path='/team' element={<Team/>}/>
+      
 
 
       </Routes>
